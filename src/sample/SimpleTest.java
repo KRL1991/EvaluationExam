@@ -36,9 +36,6 @@ public class SimpleTest {
         IngredientsNutritionInformation butter1 = new IngredientsNutritionInformation("Butter",1,2,3);
         butter1.goodAgainstACold();
 
-
-
-
         steak.blankLine();
 
 // Adds a new object

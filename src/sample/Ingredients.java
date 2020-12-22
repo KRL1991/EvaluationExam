@@ -1,6 +1,6 @@
 package sample;
 
-public class Ingredients extends SimpleTest {
+public class Ingredients extends SimpleTest implements TotalCalories {
 
     String Ingredients;
     int Calories;
@@ -17,6 +17,14 @@ public class Ingredients extends SimpleTest {
         } else System.out.println("Not Rich on Calories");
 
         }
+    // Method from Interface - not implemented yet
+    @Override
+    public int caloriesInTotal() {
+        for (int i = 0; i < 0; i++) {
+
+        }
+        return 0;
+    }
 
 
 
@@ -35,4 +43,6 @@ public class Ingredients extends SimpleTest {
     public void setCalories(int calories) {
         Calories = calories;
     }
+
+
 }

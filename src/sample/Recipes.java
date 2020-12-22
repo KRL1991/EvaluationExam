@@ -2,7 +2,7 @@ package sample;
 
 import java.util.ArrayList;
 
-public class Recipes extends SimpleTest{
+public class Recipes extends SimpleTest implements TotalCalories{
 // Variables
     String Name;
     String Approach;
@@ -48,7 +48,15 @@ public class Recipes extends SimpleTest{
         showIngredients();
         showApproch();
     }
+   // Method from Interface - not implemented yet
+    @Override
+    public int caloriesInTotal() {
 
+        for (int i = 0; i <0 ; i++) {
+
+        }
+        return 0;
+    }
 
     // Getters and Setters
     public String getName() {
@@ -90,4 +98,6 @@ public class Recipes extends SimpleTest{
     public void setCookingTime(int cookingTime) {
         CookingTime = cookingTime;
     }
+
+
 }

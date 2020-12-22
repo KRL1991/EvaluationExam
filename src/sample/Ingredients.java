@@ -20,9 +20,6 @@ public class Ingredients extends SimpleTest implements TotalCalories {
     // Method from Interface - not implemented yet
     @Override
     public int caloriesInTotal() {
-        for (int i = 0; i < 0; i++) {
-
-        }
         return 0;
     }
 

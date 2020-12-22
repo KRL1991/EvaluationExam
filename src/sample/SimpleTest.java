@@ -18,11 +18,13 @@ public class SimpleTest {
         steak.addIngredients("Pepper",0);
         steak.addIngredients("butter",200);
 
+
+
         // Method with loop but its not working correctly
         steak.showIngredients();
 
         // Method that shows approch
-        steak.showApproch();
+        steak.showApproach();
         steak.blankLine();
 
         // Method that combines showIngredients and showApproach though showIngredients doesnt work
@@ -50,7 +52,7 @@ public class SimpleTest {
         vegetarian.showIngredients();
 
         // Method that shows approch
-        vegetarian.showApproch2();
+        vegetarian.showApproach2();
 
         // Method that informs of richness in calories
         Ingredients oliveOil = new Ingredients();
@@ -63,6 +65,7 @@ public class SimpleTest {
         oliveOil.blankLine();
 
         Recipes datStudentsTears = new Recipes();
+        System.out.println("Dat Students Tears added");
         datStudentsTears.addIngredients("Java",1500);
         datStudentsTears.addIngredients("Errors occuring",200);
         datStudentsTears.addIngredients("Tears",150);
@@ -70,7 +73,7 @@ public class SimpleTest {
         datStudentsTears.addIngredients("Frustration",1000);
         datStudentsTears.addIngredients("Aha Moments",10000);
         datStudentsTears.showIngredients();
-        datStudentsTears.showApprochDat();
+        datStudentsTears.showApproachDat();
 
         Ingredients tears = new Ingredients();
         System.out.println("Dat students tears is: ");

@@ -14,9 +14,15 @@ public class Recipes extends SimpleTest implements TotalCalories{
 
     }
 
-// ArrayList
+// ArrayList - Not sure if it is working though
     public void addIngredients(String name, int calories){
-        ArrayList<Ingredients> ingredientsArrayList2 = new ArrayList<>();
+
+        ArrayList<Ingredients> addedIngredients = new ArrayList<>();
+
+        for (int i = 0; i <addedIngredients.size() ; i++) {
+            System.out.println(addedIngredients.size());
+
+        }
 
     }
 // Show Ingredients method not working probably though
@@ -29,32 +35,38 @@ public class Recipes extends SimpleTest implements TotalCalories{
         }
         return Ingredients;
     }
-// Method that shows Approch of cooking
-    public void showApproch(){
-        System.out.println("Fry the steak on a hot pan for 3 minutes on each side");
+// Method that shows Approach of cooking
+    public void showApproach(){
+        System.out.println("Approach: Fry the steak on a hot pan for 3 minutes on each side");
     }
-    public void showApproch2(){
-        System.out.println("Fry Vegetables on a hot pan for 10 minutes ");
+    public void showApproach2(){
+        System.out.println("Approach: Fry Vegetables on a hot pan for 10 minutes ");
 
     }
-    public void showApprochDat(){
-        System.out.println("Get assignment, panick , try and calm yourself down, start coding, " +
+    public void showApproachDat(){
+        System.out.println("Approach: Get assignment, panick , try and calm yourself down, start coding, " +
                 "realize you made constructor mistake, cry, get aha moment and move on with the assignment!");
 
     }
-// Method that Collects showIngredients and showApproch
+// Method that Collects showIngredients and showApproach
     public void showRecipe(){
 
         showIngredients();
-        showApproch();
+        showApproach();
     }
    // Method from Interface - not implemented yet
     @Override
     public int caloriesInTotal() {
 
-        for (int i = 0; i <0 ; i++) {
+        return 0;
+    }
 
-        }
+    int caloriesPrPortion() {
+
+        caloriesInTotal();
+
+
+
         return 0;
     }
 

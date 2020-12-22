@@ -31,7 +31,16 @@ public class Recipes extends SimpleTest{
     }
 // Method that shows Approch of cooking
     public void showApproch(){
-        System.out.println("Fry the steak on a hot pan for 3 minutes on each side\n Fry Vegetables on a hot pan for 10 minutes ");
+        System.out.println("Fry the steak on a hot pan for 3 minutes on each side");
+    }
+    public void showApproch2(){
+        System.out.println("Fry Vegetables on a hot pan for 10 minutes ");
+
+    }
+    public void showApprochDat(){
+        System.out.println("Get assignment, panick , try and calm yourself down, start coding, " +
+                "realize you made constructor mistake, cry, get aha moment and move on with the assignment!");
+
     }
 // Method that Collects showIngredients and showApproch
     public void showRecipe(){

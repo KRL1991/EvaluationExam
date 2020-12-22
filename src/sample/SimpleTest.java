@@ -32,6 +32,11 @@ public class SimpleTest {
         Ingredients butter = new Ingredients();
         System.out.println("Butter is: ");
         butter.richOnCalories(200);
+        // Method that shows if it is good against a cold
+        IngredientsNutritionInformation butter1 = new IngredientsNutritionInformation("Butter",1,2,3);
+        butter1.goodAgainstACold();
+
+
 
 
         steak.blankLine();
@@ -48,12 +53,31 @@ public class SimpleTest {
         vegetarian.showIngredients();
 
         // Method that shows approch
-        vegetarian.showApproch();
+        vegetarian.showApproch2();
 
         // Method that informs of richness in calories
         Ingredients oliveOil = new Ingredients();
         System.out.println("Olive Oil is: ");
         oliveOil.richOnCalories(15);
+        // Method that shows if it is good against a cold
+        IngredientsNutritionInformation oliveOil1 = new IngredientsNutritionInformation("Olive Oil",10,2,3);
+        oliveOil1.goodAgainstACold();
+
+        oliveOil.blankLine();
+
+        Recipes datStudentsTears = new Recipes();
+        datStudentsTears.addIngredients("Java",1500);
+        datStudentsTears.addIngredients("Errors occuring",200);
+        datStudentsTears.addIngredients("Tears",150);
+        datStudentsTears.addIngredients("Distress", 400);
+        datStudentsTears.addIngredients("Frustration",1000);
+        datStudentsTears.addIngredients("Aha Moments",10000);
+        datStudentsTears.showIngredients();
+        datStudentsTears.showApprochDat();
+
+        Ingredients tears = new Ingredients();
+        System.out.println("Dat students tears is: ");
+        tears.richOnCalories(150);
 
 
 

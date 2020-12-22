@@ -5,6 +5,10 @@ public class Ingredients extends SimpleTest implements TotalCalories {
     String Ingredients;
     int Calories;
 
+    Diet diet;
+
+
+
     public Ingredients() {
     }
 

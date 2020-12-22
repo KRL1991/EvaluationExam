@@ -29,6 +29,16 @@ public class Recipes extends SimpleTest{
         }
         return Ingredients;
     }
+// Method that shows Approch of cooking
+    public void showApproch(){
+        System.out.println("Fry the steak on a hot pan for 3 minutes on each side\n Fry Vegetables on a hot pan for 10 minutes ");
+    }
+// Method that Collects showIngredients and showApproch
+    public void showRecipe(){
+
+        showIngredients();
+        showApproch();
+    }
 
 
     // Getters and Setters

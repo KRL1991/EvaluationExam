@@ -7,7 +7,10 @@ import javafx.scene.control.Tab;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.TableView;
 
+import java.io.BufferedWriter;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Controller {
@@ -66,9 +69,14 @@ public class Controller {
 
     }
     @FXML
-    void saveAddedRecipe(ActionEvent event) {
+    void saveAddedRecipe(ActionEvent event) throws IOException {
 //Save function not finnished
-      //  input = new Scanner(new FileReader("credentials.txt"));
+
+        BufferedWriter output = new BufferedWriter(new FileWriter("SavedRecipes.txt"));
+
+        output.append(saveRecipe.getText());
+
+
 
 
 

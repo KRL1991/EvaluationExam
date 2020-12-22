@@ -1,7 +1,9 @@
 package sample;
 
-public class Recipes extends SimpleTest{
+import java.util.ArrayList;
 
+public class Recipes extends SimpleTest{
+// Variables
     String Name;
     String Approach;
     String Ingredients;
@@ -11,6 +13,25 @@ public class Recipes extends SimpleTest{
     public Recipes() {
 
     }
+
+// ArrayList
+    public void addIngredients(String name, int calories){
+        ArrayList<Ingredients> ingredientsArrayList2 = new ArrayList<>();
+
+    }
+// Show Ingredients method not working probably though
+    public String showIngredients(){
+        ArrayList<Ingredients> ingredientsArrayList2 = new ArrayList<>();
+
+        for (sample.Ingredients ingredients : ingredientsArrayList2)
+        {
+            System.out.println(ingredientsArrayList2);
+        }
+        return Ingredients;
+    }
+
+
+    // Getters and Setters
     public String getName() {
         return Name;
     }
